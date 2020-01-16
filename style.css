@@ -3,7 +3,7 @@ body
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: url(bg.jpg);
+    background-image: url(bg.jpg);
     background-size: cover;
 }
 
@@ -40,6 +40,7 @@ body
     padding: 10px 0;
     font-size: 16px;
     color: #fff;
+    letter-spacing: 1px;
     margin-bottom: 30px;
     border: none;
     border-bottom: 1px solid #fff;
@@ -68,4 +69,16 @@ body
     Left: 0;
     color: #03a9f4;
     font-size: 12px;
+}
+
+.box input[type="submit"]
+{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
 }
